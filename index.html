@@ -3,18 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <title>سند - منصة الفواتير الرقمية</title>
     <!-- الخطوط -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    
 
     <!-- ملقاتي -->
     <link rel="stylesheet" href="style.css">
 
 </head>
 <body dir="rtl">
+            <!-- ==HEADER== -->
     <header id="header">
             <div id="logo">
                 <img src="الشعار 1.svg" alt="شعار موقع سند">
@@ -28,31 +33,36 @@
             <div id="try">
                 <p>جرب الآن مجاناً</p>
             </div>
+            <!-- ==HEADER== //-->
     </header>
+            <!-- حول فواتيرك إلى رقمية -->
     <main id="main-body">
-        <div class="container">
+        <section id="hero-section">
             <div class="img-container">
                 <img id="bg" src="image 1.svg" alt="خلفية الموقع الرئيسية">
-                <div class="intro-text">
-                    <h1 id="main-title">
+            </div>
+            <div id="txt-img">
+                <h1 id="main-title">
                     حول فواتيرك إلى رقمية...<br>
                     <span id="eseily">بسهولة مع سند</span>
                     </h1>
-                    <hr>
-                    <p id="intro-text">منصة عربية مبتكرة لإصدار وإدارة الفواتير 
+                <hr>
+                <p id="intro-text">منصة عربية مبتكرة لإصدار وإدارة الفواتير 
                     <br> <span id="second-line">الرقمية، تربطك   بعملائك ومورديك</span>
                     <br> <span id="third-line">بسلاسة، وتختصر وقتك وجهدك.</span>
-                    </p>
-                    <div class="actions">
-                        <button id="start-btn">ابدأ بإصدار فاتورتك الآن</button>
-                        <a href="#" id="watch">
-                            <span class="material-icons">play_circle</span>
-                            شاهد كيف يعمل
-                        </a>
-                    </div>
+                </p>
+                <div class="actions">
+                    <button id="start-btn">ابدأ بإصدار فاتورتك الآن</button>
+                    <a href="#" id="watch">
+                        <i class="material-icons">play_circle</i>
+                        <span>شاهد كيف يعمل</span>
+                    </a>
                 </div>
             </div>
-            <div id="share">
+        </section>
+            <!-- حول فواتيرك إلى رقمية //-->
+             <!-- لماذا سند؟ -->
+            <section id="share">
                 <div id="why-sanad">
                     <h1>لماذا سند؟</h1>
                     <span>(Value Propostion)</span>
@@ -88,8 +98,10 @@
                         <span id="txt-content5">مشاركة الفواتير عبر الواتس آب أو البريد الإلكتروني</span>
                     </div>
                 </div>
-            </div>
-            <div id="how-it-work">
+            </section>
+            <!-- لماذا سند؟ //-->
+             <!-- خلفية كيف يعمل؟ -->
+            <section id="how-it-work">
                 <div id="bg-img">
                     <div id="bg-content">
                         <div id="txt-how">
@@ -97,22 +109,16 @@
                             <span id="txt-how-it-works">(?How it Works)</span>
                         </div>    
                     <div class="how-icons">
-                        <div id="first-icon">
-                            <img src="follow.svg" alt="">
-                        </div>
-                        <div id="second-icon">
-                            <img src="add.svg" alt="">
-                        </div>
-                        <div id="third-icon">
-                            <img src="sharex.svg" alt="">
-                        </div>
-                        <div id="fourth-icon">
-                            <img src="click.svg" alt="">
-                        </div>
+                        <div id="first-icon"><img src="click.svg" alt="" /></div>
+                        <div id="fourth-icon"><img src="follow.svg" alt="" /></div>
+                        <div id="second-icon"><img src="add.svg" alt="" /></div>
+                        <div id="third-icon"><img src="sharex.svg" alt="" /></div>
                     </div>
+                <!-- خلفية كيف يعمل؟ //-->
+                 <!-- محتوى  كيف يعمل؟ -->
                 <div class="how-content">
                     <div class="how-item">
-                        <div id="how-txt1">
+                        <div class="how-txt">
                             <p>
                                 أنشئ حسابك:
                                 <span>
@@ -125,7 +131,7 @@
                         </div>
                     </div>
                     <div class="how-item">
-                        <div id="how-txt2">
+                        <div class="how-txt">
                             <p>
                                 أنشئ حسابك:
                                 <span>
@@ -138,7 +144,7 @@
                         </div>
                     </div>
                     <div class="how-item">
-                        <div id="how-txt3">
+                        <div class="how-txt">
                             <p>
                                 أنشئ فاتورتك:
                                 <span>
@@ -151,7 +157,7 @@
                         </div>
                     </div>
                     <div class="how-item">
-                        <div id="how-txt4">
+                        <div class="how-txt">
                             <p>
                                 شارك بسهولة:
                                 <span>
@@ -166,25 +172,276 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <div id="txt-advantage">
-                <h1>المزايا الأساسية</h1>
-                <span>(Featuers)</span>
-            </div>
-            <div id="advantages">
-                <div id="txt-right">
-                    <h4>نظام الفواتير الذكي</h4>
+            </section>
+            <!-- محتوى  كيف يعمل؟ //-->
+            
+            <!-- المزايا الأساسية -->
+             <section id="advantages-section">
+                <div id="txt-advantage">
+                    <h1>المزايا الأساسية</h1>
+                    <span>(Featuers)</span>
                 </div>
-                <div id="right">
+                <div id="advantages">
+                    <div class="right-group">
+                       <div id="right">    
+                        <div id="txt-right">
+                                <p>نظام الفواتير الذكي</p>
+                            </div>
+                        <div class="info-column">
+                            <div class="info-item">
+                                <i class="fa-solid fa-clock"></i>
+                                <span>تاريخ الإنشاء والتعديل</span>
+                                </div>
+                                <div class="info-item">
+                                <i class="fa-solid fa-credit-card"></i>
+                                <span>حالة الدفع: مدفوعة / غير مدفوعة</span>
+                                </div>
+                                <div class="info-item">
+                                <i class="fa-solid fa-barcode"></i>
+                                <span>رقم تسلسلي آلي</span>
+                                </div>
+                                <div class="info-item">
+                                <i class="fa-solid fa-notes-medical"></i>
+                                <span>ملاحظات مخصصة</span>
+                                </div>
+                                <div class="info-item">
+                                <i class="fa-solid fa-file-invoice"></i>
+                                <span>إجمالي الفاتورة بشكل واضح</span>
+                                </div>
+                                <div class="info-item">
+                                <i class="fa-solid fa-arrow-right-arrow-left"></i>
+                                <span>النوع / فاتورة صادرة أو واردة</span>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="left-group">
+                        <div id="left">
+                            <div id="txt-left">
+                                <p>تفاصيل المنتجات</p>
+                            </div>
+                        <div class="info-column">
+                            <div class="info-item">
+                            <i class="fa-solid fa-pen"></i>
+                            <span>اسم المنتج</span>
+                            </div>
+                            <div class="info-item">
+                            <i class="fa-solid fa-tag"></i>
+                            <span>السعر</span>
+                            </div>
+                            <div class="info-item">
+                            <i class="fa-solid fa-chart-bar"></i>
+                            <span>العدد والكمية</span>
+                            </div>
+                            <div class="info-item">
+                            <i class="fa-solid fa-align-left"></i>
+                            <span>وصف قصير</span>
+                            </div>
+                            <div class="info-item">
+                            <i class="fa-solid fa-cube"></i>
+                            <span>الوحدة / نوع الوحدة</span>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- المزايا الأساسية //-->
+             <!-- إدارة الحساب والجهات -->
+              <section id="account-management">
+                <div id="txt-management">
+                    <span>إدارة الحساب والجهات</span>
+                </div>
+                <div id="account-features">
+                    <div id="management-box">
+                        <div id="account-content">
+                            <div class="account-icons">
+                                <i class="fa-solid fa-clock"></i>
+                                <span>سجل بإسمك وإيميلك بكل بساطة</span>
+                            </div>
+                            <div class="account-icons">
+                                <i class="fa-solid fa-credit-card"></i>
+                                <span>أضف الموردين والعملاء في حساب واحد</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </section>
+              <!-- إدارة الحساب والجهات //-->
+               <!-- أدوات احترافية -->
+                <section id="Professional-tools">
+                    <div id="txt-Professional">
+                        <span>أدوات احترافية</span>
+                    </div>
+                    <div id="Professional-features">
+                        <div id="Professional-box">
+                            <div id="Professional-content">
+                                <div class="Professional-icons">
+                                    <i class="fa-solid fa-file-pdf"></i>
+                                    <div class="professional-txt">
+                                        <p>تصدير الفواتير</p>  
+                                        <p class="last">PDF</p>
+                                    </div>
+                                </div>
+                                <div class="Professional-icons">
+                                    <i class="fa-solid fa-share-nodes"></i>
+                                    <div class="professional-txt">
+                                        <p>مشاركة سريعة</p>
+                                        <p class="last">عبر واتس آب</p>
+                                    </div>
+                                </div>
+                                <div class="Professional-icons">
+                                    <i class="fa-solid fa-image"></i>
+                                    <div class="professional-txt">
+                                        <p>إضافة شعار</p>
+                                        <p class="last">شركتك على الفاتورة</p>
+                                    </div>
+                                </div>
+                                <div class="Professional-icons">
+                                    <i class="fa-solid fa-qrcode"></i>
+                                    <div class="professional-txt">
+                                        <p>كيو آر كود</p>
+                                        <p class="last">لكل فاتورة</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+               <!-- أدوات احترافية //-->
+                <!-- MOCKUP -->
+                 <section id="mockup-section">
+                    <div class="mockup-container">
+                        <p>الموكاب هنا</p>
+                        <span>(Mockup)</span>
+                    </div>
+                 </section>
+                 <!-- MOCKUP //-->
+                <!-- أراء العملاء -->
+                <section class="testimonials">
+                     <h1>آراء العملاء (Testimonials)</h1>
+                    <div class="slider-container">
+                        <div class="slider">
+                        <div class="card">
+                            <img src="quote.svg" alt="" class="quote">
+                            <p>مثال على النص الذي قاله الشخص أو الشركة عن سند وكيف ساعدهم المنصة.</p>
+                            <h3>شركة التايف</h3>
+                        </div>
 
-                </div>
-                <div id="txt-left">
-                    <h4>تفاصيل المنتجات</h4>
-                </div>
-                <div id="left"></div>
-            </div>
-        </div>
+                        <div class="card">
+                            <img src="quote.svg" alt="" class="quote">
+                            <p>منصة رائعة وسهلة الاستخدام، أنصح بها الجميع.</p>
+                            <h3>شركة الريان</h3>
+                        </div>
+
+                        <div class="card">
+                            <img src="quote.svg" alt="" class="quote">
+                            <p>خدمة ممتازة ودعم سريع جدًا، شكراً لكم.</p>
+                            <h3>شركة النور</h3>
+                        </div>
+
+                        <div class="card">
+                            <img src="quote.svg" alt="" class="quote">
+                            <p>خدمة عملاء راقية وسرعة في الأداء، تجربة رائعة!</p>
+                            <h3>شركة الهدى</h3>
+                        </div>
+                        </div>
+
+                        <div class="buttons">
+                        <img src="right-arrow.svg" alt="" id="prev">
+                        <img src="left-arrow.svg" alt="" id="next">
+                        </div>
+                    </div>
+                </section>
+                <!-- أراء العملاء //-->
+                 <!-- خطط الأسعار -->
+                  <section id="Pricing-Plans">
+                    <div class="Pricing-txt">
+                        <p>خطط الأسعار</p>
+                        <span>(Pricing Plans)</span>
+                    </div>
+                    <div id="pricing-boxes">
+                        <div class="Pricing-box">
+                            <div class="box-container">
+                                <h2>مجاني</h2>
+                                <i class="fa-solid fa-file-invoice"></i>
+                                <span>5 فواتير شهريًا</span>
+                                <p id="free-salary">0$</p>
+                            </div>
+                        </div>
+
+                        <div class="Pricing-box">
+                            <div class="box-container">
+                                <h2>أساسي</h2>
+                                <i class="fa-solid fa-file-invoice"></i>
+                                <span>50 فاتورة شهريًا</span>
+                                <br>
+                                <i class="fa-solid fa-image"></i>
+                                <span>دعم شعار الشركة</span>
+                                <p>XX$</p>
+                            </div>
+                        </div>
+
+                        <div class="Pricing-box">
+                            <div class="box-container">
+                                <h2>محترف</h2>
+                                <i class="fa-solid fa-file-invoice"></i>
+                                <span>عدد غير محدود</span>
+                                <br>
+                                <i class="fas fa-headphones"></i>
+                                <span>دعم متقدم</span>
+                                <p>XX$</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                 <!-- خطط الأسعار //-->
+                  <!-- ابدأ اليوم -->
+                   <section id="get-started-today">
+                    <div class="bills">
+                        <img src="3 BILL.svg" alt="فاتورة 3" class="invoice">
+                        <img src="2 BILL.svg" alt="فاتورة 2" class="invoice">
+                        <img src="1 BILL.svg" alt="فاتورة 1" class="invoice">
+                    </div>
+                    <div id="get-bg">
+                        <div class="get-txt">
+                            <p>ابدأ اليوم، اجعل فواتيرك</p>
+                            <p>رقمية ومرتبة مع سند</p>
+                        </div>
+                        <div class="try-it-now">
+                            <button id="try-btn">
+                                جرب مجانا الآن
+                                <img src="try-it-now.svg" alt="">
+                            </button>
+                        </div>    
+                    </div>
+                </section>
+                  <!-- ابدأ اليوم //-->
+                   <!-- الفوتر -->
+                    <footer>
+                        <div class="footer-icons">
+                            <a href="#">
+                                <img src="wahtsup.svg" alt="">
+                            </a>
+                            <a href="#">
+                                <img src="in.svg" alt="">
+                            </a>
+                            <a href="#">
+                                <img src="email.svg" alt="">
+                            </a>
+                        </div>
+                        <div class="footer-txt">
+                            <p>عن سند</p>
+                            <p>سياسة الخصوصية</p>
+                            <p>تواصل معنا</p>
+                        </div>
+                        <div class="final-txt-footer">
+                            <p>© 2025 سطور – مشروع سند</p>
+                        </div>
+                    </footer>
+                   <!-- الفوتر //-->
+
     </main>
-<script src="script.js"></script>
+<script src="script.js">
+</script>
 </body>
 </html>
